@@ -1,0 +1,22 @@
+{
+  "first_name": "Seljan",
+  "last_name": "Khasiyeva",
+  "team": "seljan-khasiyeva",
+  "model": {
+    "framework": "yolo26",
+    "variant": "yolo26m",
+    "imgsz": 640,
+    "epochs_total": 120,
+    "tricks": [
+      "mosaic",
+      "mixup",
+      "copy_paste",
+      "two_stage_finetune",
+      "freeze_backbone",
+      "adamw_optimizer",
+      "weight_decay",
+      "early_stopping"
+    ]
+  },
+  "notes": "Achieved mAP@0.5:0.95 of 0.737 using two-stage fine-tuning (freeze=10 then freeze=0) with AdamW and strong augmentation. Successfully exported to ONNX (opset 17) and validated."
+}

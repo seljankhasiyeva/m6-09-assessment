@@ -377,3 +377,11 @@ During the class activity period the instructor will:
 5. Publish a live leaderboard table.
 
 The activity is collaborative — bring questions, watch how others approached the problem, and look for design choices that translate to your future production work.
+
+## Image for leaderboard
+
+```text
+docker pull seljankhasiyeva/cat-detector:final
+Image: seljankhasiyeva/cat-detector:final
+Student: Seljan Khasiyeva
+```

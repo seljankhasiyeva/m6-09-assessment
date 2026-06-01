@@ -1,0 +1,6 @@
+path: c:\Users\ASUS\Desktop\m6-09-assessment\data
+train: c:\Users\ASUS\Desktop\m6-09-assessment\data\DATA_CLEAN\train.txt
+val: c:\Users\ASUS\Desktop\m6-09-assessment\data\DATA_CLEAN\val.txt
+test: c:\Users\ASUS\Desktop\m6-09-assessment\data\DATA_CLEAN\test.txt
+names:
+  0: cat
